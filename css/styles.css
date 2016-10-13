@@ -1,0 +1,16 @@
+blockquote p:before,
+blockquote p:after {
+  content: '\0022'
+}
+
+blockquote p {
+  font-style: italic;
+}
+
+.panel {
+  border-radius: 30px 60px 0px;
+}
+
+.panel > .panel-heading {
+  border-radius: 30px 60px 0px 0px;
+}
