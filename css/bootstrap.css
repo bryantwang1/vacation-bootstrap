@@ -1485,13 +1485,6 @@ blockquote ul:last-child,
 blockquote ol:last-child {
   margin-bottom: 0;
 }
-blockquote p:before,
-blockquote p:after {
-  content: '\0022';
-}
-blockquote p {
-  font-style: italic;
-}
 blockquote footer,
 blockquote small,
 blockquote .small {
@@ -5456,9 +5449,9 @@ button.list-group-item-danger.active:focus {
 }
 .panel {
   margin-bottom: 20px;
-/*  background-color: #fff; */
+  background-color: #fff;
   border: 1px solid transparent;
-  border-radius: 30px 60px 0px;
+  border-radius: 4px;
   -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
           box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
 }
@@ -5714,7 +5707,6 @@ button.list-group-item-danger.active:focus {
   color: #fff;
   background-color: #337ab7;
   border-color: #337ab7;
-  border-radius: 30px 60px 0px 0px;
 }
 .panel-primary > .panel-heading + .panel-collapse > .panel-body {
   border-top-color: #337ab7;
